@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Visualizations &mdash; ISB Cancer Genomics Cloud 1.0.0 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/custom.js"></script>
+    <link rel="top" title="ISB Cancer Genomics Cloud 1.0.0 documentation" href="../../index.html" />
+    <link rel="up" title="Web Interface" href="../Web-UI.html" />
+    <link rel="next" title="SeqPeek" href="SeqPeek.html" />
+    <link rel="prev" title="Cohorts" href="Cohorts.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="SeqPeek.html" title="SeqPeek"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Cohorts.html" title="Cohorts"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">ISB Cancer Genomics Cloud 1.0.0 documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="../Web-UI.html" accesskey="U">Web Interface</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="visualizations">
+<h1>Visualizations<a class="headerlink" href="#visualizations" title="Permalink to this headline">¶</a></h1>
+<p>The ISB-CGC web-app provides a variety of tools for visualizing the data associated with cohorts you have defined.
+A visualization is a
+collection of one or more plots and each plot is configurable to show relevant data that can be shared with others.</p>
+<div class="section" id="create">
+<h2>Create<a class="headerlink" href="#create" title="Permalink to this headline">¶</a></h2>
+<p>You can create a new visualization from the user dashboard. Select the “Visualization” option from the “+ Create” menu.
+This will prompt you to name the visualization and provide at least one cohort to start with. It will automatically
+choose the last one you created. Click “Create Visualization”.</p>
+</div>
+<div class="section" id="save">
+<h2>Save<a class="headerlink" href="#save" title="Permalink to this headline">¶</a></h2>
+<p>Use the “Save Visualizations” option in the top right menu. It will save the visualization and all plots in their
+current configuration. It will not save any selections that have been made within plots.</p>
+</div>
+<div class="section" id="delete">
+<h2>Delete<a class="headerlink" href="#delete" title="Permalink to this headline">¶</a></h2>
+<p><strong>From User Dashboard</strong>
+Select the visualizations that you wish to delete using the checkboxes next to the visualization. When one or more are
+selected, the delete button will be active and you can then proceed to deleting them.</p>
+<p><strong>From Visualization</strong>
+If you are viewing a visualization you created, then you can delete the cohort from the top right menu option.</p>
+</div>
+<div class="section" id="copy">
+<h2>Copy<a class="headerlink" href="#copy" title="Permalink to this headline">¶</a></h2>
+<p>Copying a visualization can only be done from the visualization you want to copy.</p>
+<p>When you are looking at the visualization you wish to copy, select the “Make A Copy” item from the top right menu.</p>
+<p>This will take you to your copy of the visualization.</p>
+</div>
+<div class="section" id="add-plot">
+<h2>Add Plot<a class="headerlink" href="#add-plot" title="Permalink to this headline">¶</a></h2>
+<p>To add a plot to a visualization, select the “Add a Plot” item in the top right menu.</p>
+<p>This will append a new plot section to your visualization with the default plot of an age histogram for the All TCGA
+Data Cohort.</p>
+</div>
+<div class="section" id="delete-plot">
+<h2>Delete Plot<a class="headerlink" href="#delete-plot" title="Permalink to this headline">¶</a></h2>
+<p>To delete a plot from a visualization, select the “Trash” icon in the top right corner of the plot panel you wish to
+remove.</p>
+</div>
+<div class="section" id="plot-comments">
+<h2>Plot Comments<a class="headerlink" href="#plot-comments" title="Permalink to this headline">¶</a></h2>
+<p>To open the comments section for a particular plot, select the “Comment” icon in the top right corner of the plot panel.
+This will cause the comment sidebar to appear from the right side of the window.</p>
+<p>All previous comments will be displayed with the most recent on the bottom.</p>
+<p>To add a new comment, type in your comment in the text box at the bottom of the panel and click the “Comment” button.
+You should see your comment appear at the bottom of the list of comments.</p>
+</div>
+<div class="section" id="edit-plot">
+<h2>Edit Plot<a class="headerlink" href="#edit-plot" title="Permalink to this headline">¶</a></h2>
+<p>To change the settings of a plot, select the “Edit” icon in the top right corner of the plot panel. This will cause the
+Plot Setting panel to open.</p>
+<div class="section" id="selecting-new-feature-s">
+<h3>Selecting new Feature(s)<a class="headerlink" href="#selecting-new-feature-s" title="Permalink to this headline">¶</a></h3>
+<p>When you click on the edit icon next to the feature you would like to change (i.e. “X Axis Feature”, “Y Axis Feature”),
+you will be taken to the feature selection panel.
+Here you must first specify the datatype of the feature you would like to plot. Each datatype requires a different set
+of parameters to narrow down the feature that can be used in the plot.</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Clinical</dt>
+<dd><ul class="first last simple">
+<li>Single autocomplete textbox. This input searches through the names of the all the clinical features available.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Gene Expression</dt>
+<dd><ul class="first last simple">
+<li>Gene Filter: filters down the plot-able features by a specific gene. This is an autocomplete search field for a gene name.</li>
+<li>Platform Filter: filters down the plot-able features by platforms.</li>
+<li>Center Filter: filters down the plot-able features by processing center.</li>
+<li>Select Feature: provides the filtered down list of plot-able features to select from based on selected filters.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>miRNA</dt>
+<dd><ul class="first last simple">
+<li>miRNA Name Filter: filters down the plot-able features by a specific miRNA. This is an autocomplete search field for a miRNA name.</li>
+<li>Platform Filter: filters down the plot-able features by platforms.</li>
+<li>Value Filter: filters down the plot-able features by value.</li>
+<li>Select Feature: provides the filtered down list of plot-able features to select from based on selected filters.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Methylation</dt>
+<dd><ul class="first last simple">
+<li>Gene Filter: filters down the plot-able features by a specific gene. This is an autocomplete search field for a gene name.</li>
+<li>CpG Probe Filter: filters down the plot-able features by a specific CpG Probe. This is an autocomplete search field for a particular probe.</li>
+<li>Platform Filter: filters down the plot-able features by platforms.</li>
+<li>Gene Region Filter: filters down the plot-able features by specific gene regions.</li>
+<li>CpG Island region Filter: filters down the plot-able features by CpG Island region.</li>
+<li>Select Feature: provides the filtered down list of plot-able features to select from based on selected filters.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Copy Number</dt>
+<dd><ul class="first last simple">
+<li>Gene Filter: filters down the plot-able features by a specific gene. This is an autocomplete search field for a gene name.</li>
+<li>Value Filter: filters down the plot-able features by value</li>
+<li>Select Feature: provides the filtered down list of plot-able features to select from based on selected filters.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Protein</dt>
+<dd><ul class="first last simple">
+<li>Gene Filter: filters down the plot-able features by a specific gene. This is an autocomplete search field for a gene name.</li>
+<li>Protein Filter: filters down the plot-able features by protein. This is an autocomplete search field for a protein name.</li>
+<li>Select Feature: provides the filtered down list of plot-able features to select from based on selected filters.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Mutation</dt>
+<dd><ul class="first last simple">
+<li>Gene Filter: filters down the plot-able features by a specific gene. This is an autocomplete search field for a gene name.</li>
+<li>Value Filter: filters down the plot-able features by mutation value.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Select Feature: provides the filtered list of plot-able features to select from based on selected filters.</p>
+</li>
+<li><p class="first">Swap Values: This button allows you to instantly swap the features on the X and Y Axes without having to re-select each feature individually.</p>
+</li>
+<li><p class="first">Color By Cohort: This checkbox will override any feature that is in the Color By Feature. It will use the cohorts provided as the legend and Color By Feature.</p>
+</li>
+<li><p class="first">Cohorts: This is where you can select one or more cohorts to plot at one time.</p>
+</li>
+</ul>
+<p>To add a cohort, select the “+ Cohort” option underneath the currently selected list of cohorts. This will take you to
+the cohorts listing panel where you can select a cohort from the list, or use the autocomplete textbox to search in
+their list of cohorts.</p>
+<p>When all the settings have been set, you can click “Update Plot” to regenerate the plot with the new settings.</p>
+</div>
+</div>
+<div class="section" id="pairwise-statistical-test">
+<h2>Pairwise Statistical Test<a class="headerlink" href="#pairwise-statistical-test" title="Permalink to this headline">¶</a></h2>
+<p>Each pair of features selected for a plot will be tested for statistical significance, and the results will be
+displayed beneath the plot.</p>
+<hr class="docutils" />
+<div class="isbcgcfooter container">
+Have feedback or corrections?  You can file an issue <a class="reference external" href="https://github.com/isb-cgc/readthedocs/issues">here</a> or email us at <a class="reference external" href="mailto:feedback&#37;&#52;&#48;isb-cgc&#46;org">feedback<span>&#64;</span>isb-cgc<span>&#46;</span>org</a>.</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Visualizations</a><ul>
+<li><a class="reference internal" href="#create">Create</a></li>
+<li><a class="reference internal" href="#save">Save</a></li>
+<li><a class="reference internal" href="#delete">Delete</a></li>
+<li><a class="reference internal" href="#copy">Copy</a></li>
+<li><a class="reference internal" href="#add-plot">Add Plot</a></li>
+<li><a class="reference internal" href="#delete-plot">Delete Plot</a></li>
+<li><a class="reference internal" href="#plot-comments">Plot Comments</a></li>
+<li><a class="reference internal" href="#edit-plot">Edit Plot</a><ul>
+<li><a class="reference internal" href="#selecting-new-feature-s">Selecting new Feature(s)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pairwise-statistical-test">Pairwise Statistical Test</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Cohorts.html"
+                        title="previous chapter">Cohorts</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="SeqPeek.html"
+                        title="next chapter">SeqPeek</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/sections/webapp/Visualizations.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="SeqPeek.html" title="SeqPeek"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Cohorts.html" title="Cohorts"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">ISB Cancer Genomics Cloud 1.0.0 documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="../Web-UI.html" >Web Interface</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, the ISB-CGC team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
