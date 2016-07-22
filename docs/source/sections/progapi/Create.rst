@@ -1,7 +1,12 @@
 Create Replica Set
 ******************
 
-Replica sets can be created using a POST call.
+Replica sets can be created using a POST call following the format of,
+
+/POST
+
+/replicasets
+
 
 Sample POST request
 ###################
@@ -22,11 +27,16 @@ This is a random generated number.
 -4764762120292626164
 
 
+
 Duplicate Replica Set
 *********************
 
 Instead of creating a replica set from scratch, users may share their replica sets with their friends who may duplicate
-the replica set to have it as their own.
+the replica set to have it as their own. The POST call for the duplicate replica set follows the format as below,
+
+/POST
+
+/replicaset
 
 
 Sample POST request
