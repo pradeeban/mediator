@@ -1,5 +1,14 @@
+******************
 Create Replica Set
 ******************
+
+Users may create replica sets to point to their interested sub sets of data at different granularity. They may do so, by
+creating a replica set from the scratch, or by duplicating an existing replica set. The created (or duplicated) replica
+sets can later be modified by the user.
+
+
+Create Replica Set from Scratch
+###############################
 
 Replica sets can be created using a POST call following the format of,
 
@@ -27,7 +36,7 @@ This is a random generated number.
 
 
 Duplicate Replica Set
-*********************
+#####################
 
 Instead of creating a replica set from scratch, users may share their replica sets with their friends who may duplicate
 the replica set to have it as their own. The POST call for the duplicate replica set follows the format as below,
