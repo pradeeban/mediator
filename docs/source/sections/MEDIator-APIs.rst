@@ -14,8 +14,8 @@ client such as the Postman plugin of the Chrome browser.
 .. toctree::
    :maxdepth: 1
 
-   progapi/Create
-   progapi/Retrieve
-   progapi/Update
-   progapi/Delete
+   restapi/Create
+   restapi/Retrieve
+   restapi/Update
+   restapi/Delete
 
