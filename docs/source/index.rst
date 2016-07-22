@@ -55,8 +55,8 @@ Contents
    sections/Interfaces
    sections/MEDIator-APIs
    sections/Web-Application
-   sections/API-Gateway
+   sections/Building
    sections/Deployment
-   sections/FAQ
+   sections/API-Gateway
 
 
