@@ -11,6 +11,10 @@ You may access MEDIator's RESTful APIs directly or through your application that
 You may extend or leverage the exposed APIs. To begin with, you may consume the MEDIator RESTful APIs through a REST
 client such as the Postman plugin of the Chrome browser.
 
+
+Contents
+########
+
 .. toctree::
    :maxdepth: 1
 

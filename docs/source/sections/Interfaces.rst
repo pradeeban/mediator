@@ -18,8 +18,12 @@ Infinispan in-memory data grid has been leveraged as the distributed storage and
 minimizes performance overheads caused by disk access. Furthermore, current work-in-progress ensures no duplicate
 downloads while ensuring duplicate detection across the locally downloaded data sets and the data source.
 
+
+Contents
+########
+
 .. toctree::
-:maxdepth: 1
+   :maxdepth: 1
 
        interfaces/Data-Source-Mgmt
        interfaces/Replica-Set-Mgmt

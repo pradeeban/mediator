@@ -73,7 +73,7 @@ Contents
 
    sections/About-MEDIator
    sections/Interfaces
-   sections/MEDIator-APIs
+   sections/MEDIator-REST-API
    sections/Data-Sources
    sections/Web-Application
    sections/Development
