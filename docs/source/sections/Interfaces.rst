@@ -23,9 +23,9 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-    interfaces/Data-Source-Mgmt
-    interfaces/Replica-Set-Mgmt
-    interfaces/Integrator
+   interfaces/Data-Source-Mgmt
+   interfaces/Replica-Set-Mgmt
+   interfaces/Integrator
 
 
 
