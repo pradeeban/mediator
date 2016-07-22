@@ -64,6 +64,20 @@ published replica-set is immutable, and the act of publishing makes the replica-
 can be generated, the publisher is also prompted to provide some metadata.
 
 
+
+Evaluation
+##########
+
+MEDIator was tested against TCIA, Amazon S3, and both TCIA and Amazon S3 together. It was evaluated in a cluster up to 6
+identical nodes of servers with Intel® CoreTM i7-2600K CPU @ 3.40GHz and 12 GB memory. Data sources up to 300 GB from
+TCIA consisting of around 100000 image files and S3 were used in the evaluations.
+
+.. image:: eval.png
+   :scale: 100
+   :align: center
+
+
+
 Results
 #######
 
