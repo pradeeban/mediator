@@ -4,7 +4,6 @@ Contents
 .. toctree::
 :maxdepth: 1
 
-       index
        sections/About-MEDIator
        sections/Interfaces
        sections/MEDIator-APIs
