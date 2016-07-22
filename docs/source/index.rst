@@ -32,7 +32,26 @@ find sentences referring to MEDIator by this code name.
 
 
 
-**Citing MEDIator**
+Getting Started With MEDIator
+#############################
+
+You may download and build MEDIator from its source code, which is readily avilable at
+
+https://bitbucket.org/BMI/datareplicationsystem/
+
+
+There is also a containerized version of MEDIator available at,
+
+https://hub.docker.com/r/datacafe/mediator/
+
+
+However, please note that the MEDIator container can often be an outdated version. So it is recommended to clone
+MEDIator source code and build it with Maven.
+
+
+
+Citing MEDIator
+###############
 
 If you have used MEDIator in your research, please cite the below papers:
 
@@ -60,5 +79,6 @@ Contents
    sections/Development
    sections/Deployment
    sections/API-Gateway
+   section/Acknowledgements
 
 

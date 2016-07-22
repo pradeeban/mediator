@@ -108,3 +108,19 @@ The emerging research domains of radiomics and radiogenomics place a heavy empha
 large scale, well curated information repositories. Our work demonstrates a novel approach to sharing and
 accessing subsets of data stored in such repositories. Our motivating premise is that such novel mechanisms
 to share data, will encourage data reuse, as well as streamline access to data from algorithms.
+
+MEDIator is a platform for sharing medical images across multiple users by merely sharing the metadata, from the
+heterogeneous image archives by leveraging the distributed shared memory platforms. The design can also be implemented
+for any other data sources having an index to query and structure them as replica sets.
+
+
+Tentative Action Items
+######################
+
+Public Release: Summer 2016 (TCIA)
+
+Integrate with NIH Genomic Data Commons
+
+Persist Replica Sets
+
+Associate Digital Object Identifiers with Replica Sets
