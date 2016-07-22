@@ -57,5 +57,5 @@ Contents
    sections/API-Gateway
    sections/Deployment
    sections/FAQ
-   sections/Support
+   sections/Interfaces
 
