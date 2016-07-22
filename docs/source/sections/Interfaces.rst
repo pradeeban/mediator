@@ -4,44 +4,28 @@ MEDIator Interfaces
 
 MEDIator consists of 3 interfaces for data source management and replica set management.
 
+Data Source Management API (Formerly known as Interface API) is an interface for retrieving data and metadata
+ from the original data sources. This is customized for each data source, though is often provided by the data source
+ itself.
 
-Data Source Management
-######################
+Replica Set Management API (Formerly known as PubCons API) is a public interface customized for each data source. It is
+the core of MEDIator, for creating and managing replica sets.
 
-Data source management refers to the management of the original data sources replicated by MEDIator. The implementation
-of the data source management is often offered by the data source providers themselves.
+In addition to these two, there is also an Integrator API that allows the developers to create and manage replica sets
+that span across multiple heterogeneous data sources.
 
-Relevant classes can be found in the package: ds_mgmt.
+Infinispan in-memory data grid has been leveraged as the distributed storage and execution platform for MEDIator. It
+minimizes performance overheads caused by disk access. Furthermore, current work-in-progress ensures no duplicate
+downloads while ensuring duplicate detection across the locally downloaded data sets and the data source.
 
-Data source management module manages the data sources themselves.
+.. toctree::
+:maxdepth: 1
 
-The relevant interfaces and implementations are often provided by the data sources or the data providers, and hence
-orthogonal to MEDIator. However, a TCIA data source management RESTful interface and implementation are included.
-
-
-Replica Set Management
-######################
-
-Relevant classes can be found in the package: rs_mgmt.
-
-Replicaset management module manages the replica sets pointing to each of the data sources.
-
-ReplicaSetHandlers are implemented for each of the data sources that are federated by MEDIator. The ReplicaSetHandlers
-offer an internal implementation of the replica sets management.
-
-ReplicaSetManagers are the core REST APIs of MEDIator. They leverage the ReplicaSetHandlers to manage the replica sets
-of each of the data sources. There is a one-to-one mapping between the ReplicaSetManager api implementations and the
-data sources.
-
-TciaReplicaSetManager provides the REST API for managing the TCIA replica sets. Relevant documentation can be found in
-the class as the method-level comments.
+       interfaces/Data-Source-Mgmt
+       interfaces/Replica-Set-Mgmt
+       interfaces/Integrator
 
 
-Integrator
-##########
-Relevant classes can be found in the package: integrator.
 
-ReplicaSetsIntegrator is a singleton that manages integration of all the data sources for the replica set management.
 
-Hence, ReplicaSetsIntegrator is a single entity that has a one-to-many relationship with the data sources of MEDIator
-for the replicaset management.
+
