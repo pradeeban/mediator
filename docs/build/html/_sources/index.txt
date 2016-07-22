@@ -16,17 +16,24 @@ tips on how to use it, and details about its RESTful API.
    :scale: 100
    :align: center
 
-The ISB-CGC aims to serve the needs of a broad range of cancer researchers ranging from 
-scientists or clinicians who prefer to use an interactive web-based application to access 
-and explore the rich TCGA dataset, to computational scientists who want to write their own 
-custom scripts using languages such as R or Python, accessing the data through APIs, and 
-to algorithm developers who wish to spin up thousands of virtual machines to analyze hundreds 
-of terabytes of sequence data.
+With the growing adaptation of pervasive computing into medical domain and increasingly open access to data, metadata
+stored in medical image archives and legacy data stores is shared and synchronized across multiple devices of data consumers.
+While many medical image sources provide APIs for public access, an architecture that orchestrates an effective sharing
+and synchronization of metadata across multiple users, from different storage media and data sources, is still lacking.
 
-This documentation is a work-in-progress, please let us know how we can improve 
-it. feedback@isb-cgc.org 
+MEDIator is a data sharing and synchronization middleware platform for heterogeneous medical image archives.
+MEDIator allows sharing pointers to medical data efficiently, while letting the consumers manipulate the pointers
+without modifying the raw medical data. MEDIator has been implemented for multiple data sources, including Amazon S3,
+The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
 
--- the ISB-CGC team
+
+**Citing MEDIator**
+
+If you have used MEDIator in your research, please cite the below paper:
+
+Kathiravelu, P. & Sharma, A. (2015). **MEDIator: A Data Sharing Synchronization Platform for Heterogeneous Medical Image Archives.**
+In *Workshop on Connected Health at Big Data Era (BigCHat'15), co-located with 21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)*.
+Aug. 2015. ACM. 6 pages. http://doi.org/10.13140/RG.2.1.3709.4248
 
 Contents
 ########
@@ -34,12 +41,12 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   sections/About-ISB-CGC
-   sections/Hosted-Data
-   sections/Prog-APIs
-   sections/Web-UI
-   sections/QuicklinksOneTable
-   sections/DIYWorkshop
+   sections/About-MEDIator
+   sections/Data-Sources
+   sections/MEDIator-APIs
+   sections/Web-Application
+   sections/API-Gateway
+   sections/Deployment
    sections/FAQ
    sections/Support
 
