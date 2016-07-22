@@ -41,9 +41,9 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   sections/About-ISB-CGC
+   sections/About-MEDIator
    sections/Hosted-Data
-   sections/Prog-APIs
+   sections/MEDIator-APIs
    sections/Web-UI
    sections/QuicklinksOneTable
    sections/DIYWorkshop
