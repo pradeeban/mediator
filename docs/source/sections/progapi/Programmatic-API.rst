@@ -4,7 +4,7 @@ Programmatic Interfaces
 
 Programmatic access to molecular data and metadata within the ISB-CGC platform
 uses a combination of ISB-CGC APIs and Google APIs, as illustrated by the
-`block diagram <http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/_images/new-block-three-p.png>`_
+`block diagram <http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/_images/deployment.png>`_
 on the front page of this documentation.
 
 * The **ISB-CGC API** provides programmatic access to data and metadata stored in CloudSQL.  This includes information describing TCGA patients and samples, data availability, user-created cohorts, *etc.*  In this section of our documentation, you will find more details about using the ISB-CGC API.

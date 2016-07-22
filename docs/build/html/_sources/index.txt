@@ -12,7 +12,7 @@ Welcome to the MEDIator Documentation on Read the Docs.
 Here you will find information describing the features of the MEDIator platform,
 tips on how to use it, and details about its RESTful API.
 
-.. image:: new-block-three-p.png
+.. image:: deployment.png
    :scale: 100
    :align: center
 
