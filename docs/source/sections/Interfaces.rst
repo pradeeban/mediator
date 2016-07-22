@@ -2,11 +2,9 @@
 MEDIator Interfaces
 *******************
 
-MEDIator consists of 3 interfaces for data source management and replica set management.
-
-Data Source Management API (Formerly known as Interface API) is an interface for retrieving data and metadata
- from the original data sources. This is customized for each data source, though is often provided by the data source
- itself.
+MEDIator consists of 3 interfaces for data source management and replica set management. Data Source Management API
+(Formerly known as Interface API) is an interface for retrieving data and metadata from the original data sources.
+This is customized for each data source, though is often provided by the data source itself.
 
 Replica Set Management API (Formerly known as PubCons API) is a public interface customized for each data source. It is
 the core of MEDIator, for creating and managing replica sets.
@@ -25,9 +23,9 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-       interfaces/Data-Source-Mgmt
-       interfaces/Replica-Set-Mgmt
-       interfaces/Integrator
+    interfaces/Data-Source-Mgmt
+    interfaces/Replica-Set-Mgmt
+    interfaces/Integrator
 
 
 
