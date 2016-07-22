@@ -27,7 +27,8 @@ without modifying the raw medical data. MEDIator has been implemented for multip
 The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
 
 
-** Citing MEDIator **
+**Citing MEDIator**
+
 If you have used MEDIator in your research, please cite the below paper:
 
 Kathiravelu, P. & Sharma, A. (2015). **MEDIator: A Data Sharing Synchronization Platform for Heterogeneous Medical Image Archives.**
