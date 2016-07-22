@@ -8,16 +8,14 @@ Replica sets can be created using a POST call following the format of,
 /replicasets
 
 
-Sample POST request
-###################
+**Sample POST request**
 
 http://localhost:9090/replicasets?iUserID=12&iCollection=TCGA-GBM&iPatientID=TCGA-06-6701%2CTCGA-08-0831&iStudyInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.151679082681232740021018262895&iSeriesInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.179004339156422100336233996679
 
 This creates a replica set for the user with the user ID 12, with the given attributes of the images hosted in TCIA.
 
 
-Sample POST response
-####################
+**Sample POST response**
 
 The expected response of the REST call is the ID of the replica set that was created in the previous replica set
 creation POST request.
@@ -39,8 +37,7 @@ the replica set to have it as their own. The POST call for the duplicate replica
 /replicaset
 
 
-Sample POST request
-###################
+**Sample POST request**
 
 http://localhost:9090/replicaset?userID=1234567&replicaSetID=-7196077834010820228
 
@@ -48,8 +45,7 @@ The inputs to this POST method are the ID of the current user who is duplicating
 the replica set that has been duplicated by the user.
 
 
-Sample POST response
-####################
+**Sample POST response**
 
 -5054196249282594410
 
