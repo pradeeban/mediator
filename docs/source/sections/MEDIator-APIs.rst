@@ -3,7 +3,7 @@ MEDIator RESTful APIs
 *********************
 
 If you are hosting MEDIator for public access, you need to start it and expose its RESTful APIs. Execute the
-MEDIatorEngine class.
+MEDIatorEngine class. The implementation of the RESTful invocations can be found at TciaReplicaSetManager.
 
 You may access MEDIator's RESTful APIs directly or through your application that consumes the MEDIator APIs.
 
@@ -14,8 +14,8 @@ client such as the Postman plugin of the Chrome browser.
 .. toctree::
    :maxdepth: 1
 
-   progapi/SysModel
-   progapi/Tutorials
-   progapi/Programmatic-API
-   progapi/Compute-Engine
+   progapi/Create
+   progapi/Retrieve
+   progapi/Update
+   progapi/Delete
 

@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-***********************************
- MEDIator - Data Replication System
-***********************************
+**********************************
+MEDIator - Data Replication System
+**********************************
 
 Welcome to the MEDIator Documentation on Read the Docs.
 
@@ -26,6 +26,15 @@ MEDIator allows sharing pointers to medical data efficiently, while letting the 
 without modifying the raw medical data. MEDIator has been implemented for multiple data sources, including Amazon S3,
 The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
 
+This documentation is intended to serve both the MEDIator developers/deployers as well as the MEDIator users. Please
+note that MEDIator version 1.0 has been code named SPREAD (System for Sharing and Publishing Research Data). You may
+find sentences referring to MEDIator by this code name.
+
+
+**Work-in-Progress**
+
+This documentation is currently a work-in-progress. Please tolerate any irrelevant or outdated information while we
+complete this.
 
 **Citing MEDIator**
 
