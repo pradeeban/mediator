@@ -51,11 +51,11 @@ Contents
    :maxdepth: 1
 
    sections/About-MEDIator
-   sections/Data-Sources
    sections/Interfaces
    sections/MEDIator-APIs
+   sections/Data-Sources
    sections/Web-Application
-   sections/Building
+   sections/Development
    sections/Deployment
    sections/API-Gateway
 
