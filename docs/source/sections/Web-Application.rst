@@ -1,6 +1,6 @@
-*********************
-ISB-CGC Web Interface
-*********************
+************************
+MEDIator Web Application
+************************
 
 The documentation contained in this section is for version 1.0 of the `ISB-CGC web interface <https://isb-cgc.appspot.com/>`_.
 

@@ -1,6 +1,6 @@
-***********************************
-About the ISB Cancer Genomics Cloud
-***********************************
+********************************************
+About the MEDIator Data Replication Platform
+********************************************
 
 The ISB-CGC provides interactive and programmatic access to the TCGA data, 
 leveraging many aspects of the Google Cloud Platform including BigQuery, 

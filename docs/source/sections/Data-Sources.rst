@@ -1,6 +1,6 @@
-**********************
-Cloud-Hosted Data Sets
-**********************
+**************
+Data Sources
+**************
 
 The ISB-CGC platform hosts the majority of the TCGA data set as well as other reference and 
 annotation datasets in different appropriate Google Cloud technologies.

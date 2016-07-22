@@ -1,6 +1,6 @@
-**************************
-Quick Links 
-**************************
+*******************************
+MEDIator API Gateway and Portal
+*******************************
 
 The table below describes the types of functions that can be performed in ISB-CGC and provides links to documentation on how to do those functions.
 

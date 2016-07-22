@@ -1,6 +1,6 @@
-************
-DIY Workshop
-************
+*******************************
+Building and Deploying MEDIator
+*******************************
 
 These materials were originally created for the workshops given at NCI on May 24th and 25th. 
 They have been modified and updated to create a "Do It Yourself" workshop that you should be

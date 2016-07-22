@@ -42,11 +42,11 @@ Contents
    :maxdepth: 1
 
    sections/About-MEDIator
-   sections/Hosted-Data
+   sections/Data-Sources
    sections/MEDIator-APIs
-   sections/Web-UI
-   sections/QuicklinksOneTable
-   sections/DIYWorkshop
+   sections/Web-Application
+   sections/API-Gateway
+   sections/Deployment
    sections/FAQ
    sections/Support
 

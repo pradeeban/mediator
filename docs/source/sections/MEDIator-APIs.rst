@@ -1,6 +1,6 @@
-*******************
-Programmatic Access
-*******************
+*********************
+MEDIator RESTful APIs
+*********************
 
 Programmatic access to the data and metadata is provided through a combination of ISB-CGC
 APIs and Google APIs.  The majority of the TCGA data in BigQuery tables and in Google Cloud Storage is 
