@@ -22,3 +22,27 @@ This is a random generated number.
 -4764762120292626164
 
 
+Duplicate Replica Set
+*********************
+
+Instead of creating a replica set from scratch, users may share their replica sets with their friends who may duplicate
+the replica set to have it as their own.
+
+
+Sample POST request
+###################
+
+http://localhost:9090/replicaset?userID=1234567&replicaSetID=-7196077834010820228
+
+The inputs to this POST method are the ID of the current user who is duplicating the replica set, as well as the ID of
+the replica set that has been duplicated by the user.
+
+
+Sample POST response
+####################
+
+-5054196249282594410
+
+Similar to the create replica set method above, the duplicate method too returns the ID of the newly created replica set.
+This is because the internals of the create and duplicate replica set methods function in a similar way, generating a
+replica set with a randomly generated replica set ID.
