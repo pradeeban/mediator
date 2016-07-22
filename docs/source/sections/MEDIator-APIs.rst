@@ -2,15 +2,14 @@
 MEDIator RESTful APIs
 *********************
 
-Programmatic access to the data and metadata is provided through a combination of ISB-CGC
-APIs and Google APIs.  The majority of the TCGA data in BigQuery tables and in Google Cloud Storage is 
-accessed directly via Google Cloud tools and interfaces.  
-Access to ISB-CGC metadata and user-data such as cohort definitions is provided through
-the ISB-CGC programmatic API described below.
+If you are hosting MEDIator for public access, you need to start it and expose its RESTful APIs. Execute the
+MEDIatorEngine class.
 
-A growing set of tutorials and programming examples illustrating how you can work with these TCGA data using a variety of
-programming environments such as Python and R, or grid computing systems such as GridEngine
-are provided in our github repositories, also described below.
+You may access MEDIator's RESTful APIs directly or through your application that consumes the MEDIator APIs.
+
+
+You may extend or leverage the exposed APIs. To begin with, you may consume the MEDIator RESTful APIs through a REST
+client such as the Postman plugin of the Chrome browser.
 
 .. toctree::
    :maxdepth: 1
