@@ -3,15 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-*****************************
-The ISB Cancer Genomics Cloud
-*****************************
+***********************************
+ MEDIator - Data Replication System
+***********************************
 
-Welcome to the ISB-CGC Documentation on Read the Docs.
+Welcome to the MEDIator Documentation on Read the Docs.
 
-Here you will find information describing the features of the ISB-CGC platform, 
-tips on how to use it, and details about the data that we are hosting on the 
-Google Cloud Platform.
+Here you will find information describing the features of the MEDIator platform,
+tips on how to use it, and details about its RESTful API.
 
 .. image:: new-block-three-p.png
    :scale: 100
