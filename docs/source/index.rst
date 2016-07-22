@@ -31,10 +31,6 @@ note that MEDIator version 1.0 has been code named SPREAD (System for Sharing an
 find sentences referring to MEDIator by this code name.
 
 
-**Work-in-Progress**
-
-This documentation is currently a work-in-progress. Please tolerate any irrelevant or outdated information while we
-complete this.
 
 **Citing MEDIator**
 
