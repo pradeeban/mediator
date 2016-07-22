@@ -52,10 +52,11 @@ Contents
 
    sections/About-MEDIator
    sections/Data-Sources
+   sections/Interfaces
    sections/MEDIator-APIs
    sections/Web-Application
    sections/API-Gateway
    sections/Deployment
    sections/FAQ
-   sections/Interfaces
+
 

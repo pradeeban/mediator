@@ -2,9 +2,7 @@
 MEDIator Interfaces
 *******************
 
-MEDIator consists of 3 interfaces for data source management and replica set management. MEDIator version 1.0-SNAPSHOT
-has extensively been developed for The Cancer Imaging Archive (TCIA), while maintaining relevant interfaces for extension
-to the otehr data sources.
+MEDIator consists of 3 interfaces for data source management and replica set management.
 
 
 Data Source Management
