@@ -71,7 +71,7 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   section/usecase
+   section/Usecase
    sections/About-MEDIator
    sections/Interfaces
    sections/MEDIator-REST-API
