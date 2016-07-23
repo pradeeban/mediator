@@ -12,6 +12,11 @@ You may extend or leverage the exposed APIs. To begin with, you may consume the 
 client such as the Postman plugin of the Chrome browser.
 
 
+.. image:: outline.png
+   :scale: 100
+   :align: center
+
+
 Contents
 ########
 
