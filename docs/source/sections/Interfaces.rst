@@ -16,8 +16,9 @@ Infinispan in-memory data grid has been leveraged as the distributed storage and
 minimizes performance overheads caused by disk access. Furthermore, current work-in-progress ensures no duplicate
 downloads while ensuring duplicate detection across the locally downloaded data sets and the data source.
 
-.. image:: arch.png
-   :scale: 100
+
+.. image:: outline.png
+   :scale: 40
    :align: center
 
 
