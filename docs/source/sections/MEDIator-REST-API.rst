@@ -13,7 +13,7 @@ client such as the Postman plugin of the Chrome browser.
 
 
 .. image:: outline.png
-   :scale: 100
+   :scale: 50
    :align: center
 
 
