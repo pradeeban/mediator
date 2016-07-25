@@ -44,7 +44,7 @@ Medical images are stored in specific data sources such as TCIA that defines a s
 
 
 .. image:: tcia.png
-   :scale: 100
+   :scale: 80
    :align: center
 
 
