@@ -39,7 +39,7 @@ User facing CRUD REST API
 
 
 .. image:: pubcons.png
-   :scale: 70
+   :scale: 60
    :align: center
 
 
