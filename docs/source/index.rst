@@ -65,8 +65,8 @@ Informatics in Medicine Annual Meeting (SIIM 2016)*. June 2016.
 http://c.ymcdn.com/sites/siim.org/resource/resmgr/siim2016abstracts/Research_Kathiravelu.pdf
 
 
-Contents
-########
+MEDIator for Users
+##################
 
 .. toctree::
    :maxdepth: 2
@@ -77,9 +77,18 @@ Contents
    sections/MEDIator-REST-API
    sections/Data-Sources
    sections/Web-Application
+
+
+
+MEDIator for Developers
+#######################
+
+.. toctree::
+   :maxdepth: 2
+
    sections/Development
    sections/Deployment
    sections/API-Gateway
    sections/Installation-CENTOS
-   section/Resources
    section/Acknowledgements
+   section/datasources/Resources

@@ -55,12 +55,3 @@ a mean download rate of 0.5 TB/month, with a spike of 5.6 TB in June 2013, durin
 
 
 
-Contents
-########
-
-.. toctree::
-       :maxdepth: 1
-
-       datasources/Resources
-       datasources/Acknowledgements
-
