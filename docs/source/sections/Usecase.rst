@@ -25,17 +25,21 @@ Research Use case
 #################
 
 Researcher wants to share a subset of TCIA managed data with collaborator.
+
 .. image:: uc1.png
    :scale: 80
    :align: center
 
+
 Orchestrate this data sharing from a research workstation.
+
 .. image:: uc2.png
    :scale: 80
    :align: center
 
 
 Incorporate this in batch runs of data analysis pipelines.
+
 .. image:: uc3.png
    :scale: 80
    :align: center
