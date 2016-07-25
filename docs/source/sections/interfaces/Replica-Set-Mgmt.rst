@@ -22,7 +22,7 @@ flags to indicate existence of entries at a certain granularity.
 
 
 .. image:: pc.png
-   :scale: 100
+   :scale: 80
    :align: center
 
 
@@ -39,7 +39,7 @@ User facing CRUD REST API
 
 
 .. image:: pubcons.png
-   :scale: 100
+   :scale: 70
    :align: center
 
 

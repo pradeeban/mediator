@@ -11,7 +11,7 @@ a mean to query and retrieve the raw data.
 
 
 .. image:: datasourcemgmt.png
-   :scale: 100
+   :scale: 80
    :align: center
 
 

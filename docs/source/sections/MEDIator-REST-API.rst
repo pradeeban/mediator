@@ -13,12 +13,12 @@ client such as the Postman plugin of the Chrome browser.
 
 
 .. image:: arch.png
-   :scale: 80
+   :scale: 65
    :align: center
 
 
-Contents
-########
+RESTful Invocations of MEDIator
+###############################
 
 .. toctree::
    :maxdepth: 1

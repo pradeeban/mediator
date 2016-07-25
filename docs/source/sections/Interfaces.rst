@@ -22,8 +22,8 @@ downloads while ensuring duplicate detection across the locally downloaded data 
    :align: center
 
 
-Contents
-########
+Core Interfaces of MEDIator
+###########################
 
 .. toctree::
    :maxdepth: 1
