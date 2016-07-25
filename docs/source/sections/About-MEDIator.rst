@@ -1,6 +1,6 @@
-********************************************
-About the MEDIator Data Replication Platform
-********************************************
+******************************************************
+Introduction to the MEDIator Data Replication Platform
+******************************************************
 
 This page is intended to give an overall idea and the motivation behind the inception of MEDIator platform.
 
@@ -73,7 +73,7 @@ identical nodes of servers with Intel® CoreTM i7-2600K CPU @ 3.40GHz and 12 GB 
 TCIA consisting of around 100000 image files and S3 were used in the evaluations.
 
 .. image:: eval.png
-   :scale: 100
+   :scale: 80
    :align: center
 
 
