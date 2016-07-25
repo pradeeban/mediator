@@ -49,22 +49,6 @@ However, please note that the MEDIator container can often be an outdated versio
 MEDIator source code and build it with Maven.
 
 
-
-Citing MEDIator
-###############
-
-If you have used MEDIator in your research, please cite the below papers:
-
-[1] Kathiravelu, P. & Sharma, A. (2015). **MEDIator: A Data Sharing Synchronization Platform for Heterogeneous Medical Image Archives.**
-In *Workshop on Connected Health at Big Data Era (BigCHat'15), co-located with 21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)*.
-Aug. 2015. ACM. 6 pages. http://doi.org/10.13140/RG.2.1.3709.4248
-
-
-[2] Kathiravelu, P. & Sharma, A. (2016). **SPREAD - System for Sharing and Publishing Research Data**. In *Society for Imaging
-Informatics in Medicine Annual Meeting (SIIM 2016)*. June 2016.
-http://c.ymcdn.com/sites/siim.org/resource/resmgr/siim2016abstracts/Research_Kathiravelu.pdf
-
-
 MEDIator for Users
 ##################
 
@@ -90,3 +74,20 @@ MEDIator for Developers
    sections/API-Gateway
    sections/Installation-CENTOS
    sections/Data-Sources
+
+
+
+
+Citing MEDIator
+###############
+
+If you have used MEDIator in your research, please cite the below papers:
+
+[1] Kathiravelu, P. & Sharma, A. (2015). **MEDIator: A Data Sharing Synchronization Platform for Heterogeneous Medical Image Archives.**
+In *Workshop on Connected Health at Big Data Era (BigCHat'15), co-located with 21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)*.
+Aug. 2015. ACM. 6 pages. http://doi.org/10.13140/RG.2.1.3709.4248
+
+
+[2] Kathiravelu, P. & Sharma, A. (2016). **SPREAD - System for Sharing and Publishing Research Data**. In *Society for Imaging
+Informatics in Medicine Annual Meeting (SIIM 2016)*. June 2016.
+http://c.ymcdn.com/sites/siim.org/resource/resmgr/siim2016abstracts/Research_Kathiravelu.pdf
