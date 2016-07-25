@@ -12,7 +12,7 @@ genomic data. The typical workflow involves downloading the data from a public r
 warehouse of the data coordination site, and processing and analyzing the data on local compute clusters. As
 new data is added by the data providers, it is often left to the individual investigator to track and download
 new data. Since these research studies are often multi-investigator, research groups often designate a point-
-person as the local ‘project-specific’ data disseminators, who in turn set local databases/MEDIatorsheets/
+person as the local ‘project-specific’ data disseminators, who in turn set local databases/spreadsheets/
 dropbox accounts to track the data downloads. This rather inefficient and error-prone workflow is necessary
 because there are no good systems to share data amongst investigators and collaborators. Finally, upon
 conclusion of study, investigators rarely have a good way to identify the specific subset of data (from the
