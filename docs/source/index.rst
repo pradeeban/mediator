@@ -69,7 +69,7 @@ Contents
 ########
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    sections/Usecase
    sections/About-MEDIator
@@ -80,6 +80,17 @@ Contents
    sections/Development
    sections/Deployment
    sections/API-Gateway
+   sections/Installation-CENTOS
+   section/Resources
    section/Acknowledgements
 
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
