@@ -75,7 +75,6 @@ MEDIator for Users
    sections/About-MEDIator
    sections/Interfaces
    sections/MEDIator-REST-API
-   sections/Data-Sources
    sections/Web-Application
 
 
@@ -90,5 +89,4 @@ MEDIator for Developers
    sections/Deployment
    sections/API-Gateway
    sections/Installation-CENTOS
-   section/Acknowledgements
-   section/datasources/Resources
+   sections/Data-Sources

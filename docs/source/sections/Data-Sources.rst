@@ -54,4 +54,12 @@ servers, with unexpected spikes resulting from automated bulk downloads. The Nat
 a mean download rate of 0.5 TB/month, with a spike of 5.6 TB in June 2013, during the last 3 years.
 
 
+Further Resources
+#################
+
+.. toctree::
+    :maxdepth: 2
+
+    datasources/Resources
+    datasources/Acknowledgements
 
