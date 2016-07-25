@@ -12,6 +12,21 @@ You may extend or leverage the exposed APIs. To begin with, you may consume the 
 client such as the Postman plugin of the Chrome browser.
 
 
+**MEDIator Client**
+
+A sample Python client developed with Unirest has been included in MEDIator root directory.
+
+You may just run it, after running the MEDIatorEngine, the core initialization class of the MEDIator server -
+
+$ ./MEDIator_Client.py
+
+
+You may have to change the execution mode of the client application prior to running it though.
+
+$ chmod u+x MEDIator_Client.py
+
+
+
 .. image:: arch.png
    :scale: 65
    :align: center

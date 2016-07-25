@@ -49,14 +49,23 @@ However, please note that the MEDIator container can often be an outdated versio
 MEDIator source code and build it with Maven.
 
 
-MEDIator for Users
-##################
+MEDIator Research
+#################
 
 .. toctree::
    :maxdepth: 2
 
    sections/Usecase
    sections/About-MEDIator
+
+
+
+MEDIator for Users
+##################
+
+.. toctree::
+   :maxdepth: 2
+
    sections/Interfaces
    sections/MEDIator-REST-API
    sections/Web-Application
