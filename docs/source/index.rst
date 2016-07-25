@@ -83,14 +83,3 @@ Contents
    sections/Installation-CENTOS
    section/Resources
    section/Acknowledgements
-
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
