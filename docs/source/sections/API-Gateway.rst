@@ -255,6 +255,18 @@ https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
 }
 
 
+
+**Execute TIB**
+
+You may have to restart everything after configuring the TIB.
+
+sudo service tyk-pump start
+
+sudo service tyk-dashboard start
+
+sudo service tyk-gateway start
+
+
 From the TIB home directory, /tib
 
 
