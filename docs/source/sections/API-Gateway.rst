@@ -174,14 +174,12 @@ Now you are good to log in to the Tyk Dashboard with the given credentials.
 
 portal.tyk-local.com
 
-
 .. image:: tyksetportal.png
    :scale: 80
    :align: center
 
 
-
-    This would give a message, "CNAME updated"
+This would give a message, "CNAME updated"
 
 Now if you access http://portal.tyk-local.com/portal/ it would says "Home page not found". This is expected as you have not set up the portal and the welcome page yet.
 
