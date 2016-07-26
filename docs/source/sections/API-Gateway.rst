@@ -165,6 +165,100 @@ User: c9og13fnc8@default.com
 Pass: test123
 
 
+**Tyk Identity Broker (TIB)**
+
+In order to enable TIB, you need to do some more steps.
+
+In /opt/tyk-dashboard/tyk_analytics.conf
+
+    "identity_broker": {
+
+        "enabled": true,
+
+        "host": {
+
+            "connection_string": "http://localhost:3010",
+
+            "secret": "934893845123491238192381486djfhr87234827348"
+
+        }
+
+    },
+
+Make sure the shared secrets match in tyk-analytics.conf and tib.conf of TIB.
+https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
+
+
+{
+    "Secret": "test-secret",
+
+    "HttpServerOptions": {
+
+        "UseSSL": false,
+
+        "CertFile": "./certs/server.pem",
+
+        "KeyFile": "./certs/server.key"
+
+    },
+
+	"BackEnd": {
+
+		"Name": "in_memory",
+
+        "ProfileBackendSettings": {},
+
+			"IdentityBackendSettings": {
+
+            "Hosts" : {
+
+                "localhost": "6379"
+
+            },
+
+            "Password": "",
+
+            "Database": 0,
+
+            "EnableCluster": false,
+
+            "MaxIdle": 1000,
+
+            "MaxActive": 2000
+
+        }
+	},
+
+	"TykAPISettings": {
+
+        "GatewayConfig": {
+
+            "Endpoint": "http://localhost",
+
+            "Port": "8080",
+
+            "AdminSecret": "934893845123491238192381486djfhr87234827348"
+
+        },
+
+        "DashboardConfig": {
+
+            "Endpoint": "http://dashboard.tyk-local.com",
+
+            "Port": "80",
+
+            "AdminSecret": "934893845123491238192381486djfhr87234827348"
+
+        }
+
+    }
+}
+
+
+From the TIB home directory, /tib
+
+
+
 **Tyk Developer Portal**
 
 Now you are good to log in to the Tyk Dashboard with the given credentials.
@@ -181,7 +275,7 @@ portal.tyk-local.com
 
 This would give a message, "CNAME updated"
 
-Now if you access http://portal.tyk-local.com/portal/ it would says "Home page not found". This is expected as you have not set up the portal and the welcome page yet.
+Now if you access http://portal.tyk-local.com/portal/ it would say "Home page not found". This is expected as you have not set up the portal and the welcome page yet.
 
 
 Follow the below document to get this set up.
@@ -195,3 +289,12 @@ https://tyk.io/docs/tyk-api-gateway-v1-9/tutorials/set-up-your-portal/#step-6-se
    :align: center
 
 Once you have set this up, your portal is ready for the developers to register, log in, and consumes the APIs defined in the API catalogue.
+
+
+**Find the logs**
+
+    sudo tail -f /var/log/upstart/tyk-dashboard.log
+
+    sudo tail -f /var/log/upstart/tyk-gateway.log
+
+    sudo tail -f /var/log/upstart/tyk-pump.log
