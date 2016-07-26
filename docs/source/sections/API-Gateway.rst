@@ -260,11 +260,11 @@ https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
 
 You may have to restart everything after configuring the TIB.
 
-sudo service tyk-pump start
+sudo service tyk-pump restart
 
-sudo service tyk-dashboard start
+sudo service tyk-dashboard restart
 
-sudo service tyk-gateway start
+sudo service tyk-gateway restart
 
 
 From the TIB home directory, /tib
