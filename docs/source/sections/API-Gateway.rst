@@ -275,6 +275,23 @@ Modify the TIB configurations in /opt/tyk-dashboard/tyk_analytics.conf as below:
 
     },
 
+
+**Enable Email Notifications in the Tyk Analytics Configurations**
+
+    "email_backend": {
+
+        "enable_email_notifications": true,
+
+        "code": "",
+
+        "settings": null,
+
+        "default_from_email": "",
+
+        "default_from_name": ""
+
+    },
+
 **Execute TIB**
 
 You will have to restart everything after configuring the TIB.
