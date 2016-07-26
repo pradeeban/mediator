@@ -208,7 +208,7 @@ https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
 
         "ProfileBackendSettings": {},
 
-			"IdentityBackendSettings": {
+		"IdentityBackendSettings": {
 
             "Hosts" : {
 
@@ -227,6 +227,7 @@ https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
             "MaxActive": 2000
 
         }
+
 	},
 
 	"TykAPISettings": {
@@ -237,7 +238,7 @@ https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
 
             "Port": "8080",
 
-            "AdminSecret": "934893845123491238192381486djfhr87234827348"
+            "AdminSecret": "12345"
 
         },
 
@@ -247,18 +248,36 @@ https://tyk.io/docs/tyk-dashboard-v1-0/configuration/
 
             "Port": "80",
 
-            "AdminSecret": "934893845123491238192381486djfhr87234827348"
+            "AdminSecret": "12345"
 
         }
 
     }
+
 }
 
 
+**Enable TIB in the Tyk Analytics Configurations**
+
+Modify the TIB configurations in /opt/tyk-dashboard/tyk_analytics.conf as below:
+
+    "identity_broker": {
+
+        "enabled": true,
+
+        "host": {
+
+            "connection_string": "http://127.0.0.1:3010",
+
+            "secret": "test-secret"
+
+        }
+
+    },
 
 **Execute TIB**
 
-You may have to restart everything after configuring the TIB.
+You will have to restart everything after configuring the TIB.
 
 sudo service tyk-pump restart
 
