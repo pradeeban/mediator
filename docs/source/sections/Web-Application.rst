@@ -11,3 +11,6 @@ To access the MEDIator web application, go to http://localhost:<EMBEDDED_TOMCAT_
 
 
 You may run the Initiator class in parallel, to create a MEDIator cluster in both cases.
+
+
+You will be required to run MEDIator server as a super-user if you choose to have the port to be below 1024.

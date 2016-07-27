@@ -24,6 +24,8 @@ You may access MEDIator's RESTful APIs directly or through your application that
 You may extend or leverage the exposed APIs. To begin with, you may consume the MEDIator RESTful APIs through a REST
 client such as the Postman plugin of the Chrome browser.
 
+You will be required to run MEDIator server as a super-user if you choose to have the port to be below 1024.
+
 
 **MEDIator Client**
 
