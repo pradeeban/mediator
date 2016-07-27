@@ -3,7 +3,15 @@ MEDIator RESTful APIs
 *********************
 
 If you are hosting MEDIator for public access, you need to start it and expose its RESTful APIs. Execute the
-MEDIatorEngine class. The implementation of the RESTful invocations can be found at TciaReplicaSetManager.
+MEDIatorEngine class.
+
+$ java -classpath lib/repl-server-1.0-SNAPSHOT.jar:lib/*:conf/ edu.emory.bmi.datarepl.core.MEDIatorEngine
+
+
+To add more instances to the cluster, start the instances of Initiator class.
+$ java -classpath lib/repl-server-1.0-SNAPSHOT.jar:lib/*:conf/ edu.emory.bmi.datarepl.core.Initiator
+
+The implementation of the RESTful invocations can be found at TciaReplicaSetManager.
 
 You may access MEDIator's RESTful APIs directly or through your application that consumes the MEDIator APIs.
 
