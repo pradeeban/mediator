@@ -8,6 +8,11 @@ MEDIatorEngine class.
 $ java -classpath lib/repl-server-1.0-SNAPSHOT.jar:lib/*:conf/ edu.emory.bmi.datarepl.core.MEDIatorEngine
 
 
+You may get it running with nohup:
+
+$ nohup java -classpath lib/repl-server-1.0-SNAPSHOT.jar:lib/*:conf/ edu.emory.bmi.datarepl.core.MEDIatorEngine &
+
+
 To add more instances to the cluster, start the instances of Initiator class.
 $ java -classpath lib/repl-server-1.0-SNAPSHOT.jar:lib/*:conf/ edu.emory.bmi.datarepl.core.Initiator
 
