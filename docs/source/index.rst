@@ -49,6 +49,14 @@ However, please note that the MEDIator container can often be an outdated versio
 MEDIator source code and build it with Maven.
 
 
+The source code of this documentation can be found at,
+https://github.com/pradeeban/mediator
+
+
+This documentation is currently hosted at,
+http://mediator.readthedocs.io/
+
+
 MEDIator Research
 #################
 
