@@ -6,6 +6,10 @@ Users may create replica sets to point to their interested sub sets of data at d
 creating a replica set from the scratch, or by duplicating an existing replica set. The created (or duplicated) replica
 sets can later be modified by the user.
 
+For the ease of expression, port 9090 is used as an example in all the examples below.
+
+Make sure to replace 9090 above with the correct value as defined in REST_PORT in MEDIator CommonConstants.
+
 
 Create Replica Set from Scratch
 ###############################

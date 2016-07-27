@@ -6,6 +6,12 @@ A list of the replica sets of the given user, as well as the specifics of each o
 through the relevant GET calls.
 
 
+For the ease of expression, port 9090 is used as an example in all the examples below.
+
+Make sure to replace 9090 above with the correct value as defined in REST_PORT in MEDIator CommonConstants.
+
+
+
 Retrieve Replica Sets of the user
 #################################
 

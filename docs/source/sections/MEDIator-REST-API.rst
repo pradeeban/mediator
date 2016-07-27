@@ -29,7 +29,10 @@ client such as the Postman plugin of the Chrome browser.
 
 A sample Python client developed with Unirest has been included in MEDIator root directory.
 
-You may just run it, after running the MEDIatorEngine, the core initialization class of the MEDIator server -
+Set the REST_PORT variable in the MEDIator client to match the value as defined in the CommonConstants for the MEDIator
+server.
+
+You may run the MEDIator client, after running the MEDIatorEngine, the core initialization class of the MEDIator server -
 
 $ ./MEDIator_Client.py
 

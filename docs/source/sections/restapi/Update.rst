@@ -19,6 +19,12 @@ Replica sets can be replaced by a POST call of a following format.
 /replicaset/:id
 
 
+For the ease of expression, port 9090 is used as an example in all the examples below.
+
+Make sure to replace 9090 above with the correct value as defined in REST_PORT in MEDIator CommonConstants.
+
+
+
 **Sample POST request**
 
 http://localhost:9090/replicaset/-5841894688098285105?iStudyInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.151679082681232740021018262895&iSeriesInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.179004339156422100336233996679
