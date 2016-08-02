@@ -31,12 +31,12 @@ Use your keys to invoke the MEDIator REST API.
 
 
 .. toctree::
-      :maxdepth: 1
+   :maxdepth: 1
 
-       sections/restapi/Create
-       sections/restapi/Retrieve
-       sections/restapi/Update
-       sections/restapi/Delete
+   sections/restapi/Create
+   sections/restapi/Retrieve
+   sections/restapi/Update
+   sections/restapi/Delete
 
 
 
