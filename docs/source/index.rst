@@ -21,6 +21,21 @@ may find sentences referring to MEDIator by this code name.
 
 This MEDIator deployment focuses on TCIA as its core data source.
 
+.. image:: mediator-tcia.png
+   :scale: 100
+   :align: center
+
+
+The researcher initially finds some interesting data, and decides to bookmark them. MEDIator creates a pointer to the
+data chosen by the researcher. This pointer uniquely identifies all the data that was initially of interest to the
+researcher. The researcher now shares this pointer to the data with his/her colleagues.
+
+The other researcher, using this uniquely identifiable pointer, accesses and downloads the actual data. Moreover, he/she
+may duplicate pointer, as well as modify the duplicated pointer to point to a slightly changed subset of data as well.
+
+MEDIator stores these pointers in an in-memory data grid for an efficient storage and access. These pointers are called
+'replica sets' in MEDIator.
+
 
 Getting Started With MEDIator
 #############################
@@ -28,10 +43,6 @@ Getting Started With MEDIator
 Sign up with the developer portal to get your own access key to MEDIator.
 
 Use your keys to invoke the MEDIator REST API.
-
-.. image:: mediator-tcia.png
-   :scale: 95
-   :align: center
 
 
 .. toctree::
@@ -41,6 +52,7 @@ Use your keys to invoke the MEDIator REST API.
    sections/restapi/Retrieve
    sections/restapi/Update
    sections/restapi/Delete
+   sections/restapi/Other
 
 
 

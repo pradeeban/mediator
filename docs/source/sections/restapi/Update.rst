@@ -1,6 +1,6 @@
-*******************
-Update Replica Sets
-*******************
+*************************
+Updating the Replica Sets
+*************************
 
 A replica set can either be replaced entirely with new contents, or be appended along with the existing content, by the
 user.
@@ -19,15 +19,11 @@ Replica sets can be replaced by a POST call of a following format.
 /replicaset/:id
 
 
-For the ease of expression, port 9090 is used as an example in all the examples below.
-
-Make sure to replace 9090 above with the correct value as defined in REST_PORT in MEDIator CommonConstants.
-
 
 
 **Sample POST request**
 
-http://localhost:9090/replicaset/-5841894688098285105?iStudyInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.151679082681232740021018262895&iSeriesInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.179004339156422100336233996679
+http://lion.bmi.emory.edu/replicaset/-5841894688098285105?iStudyInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.151679082681232740021018262895&iSeriesInstanceUID=1.3.6.1.4.1.14519.5.2.1.4591.4001.179004339156422100336233996679
 
 
 This replaces the replica set with the given ID with the newly given information.
@@ -35,11 +31,11 @@ This replaces the replica set with the given ID with the newly given information
 
 **Sample POST response**
 
-true
+*true*
 
 or
 
-false
+*false*
 
 
 If the replica set was successfully replaced, 'true' will be returned. Otherwise, 'false' will be returned.
@@ -59,11 +55,18 @@ by a PUT call of the following format.
 
 **Sample PUT request**
 
-http://localhost:9090/replicaset/-5841894688098285105?iCollection=TCGA-GBM
+http://lion.bmi.emory.edu/replicaset/-5841894688098285105?iCollection=TCGA-GBM
 
 This appends the existing replica set of the given ID with pointers to the newly given subsets of data.
 
 
 **Sample PUT response**
+
+*true*
+
+or
+
+*false*
+
 
 If the replica set was successfully updated, 'true' will be returned. Otherwise, 'false' will be returned.

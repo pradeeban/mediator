@@ -60,4 +60,5 @@ RESTful Invocations of MEDIator
    restapi/Retrieve
    restapi/Update
    restapi/Delete
+   restapi/Other
 
