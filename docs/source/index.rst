@@ -25,7 +25,7 @@ Sign up with the developer portal to get your own access keys to MEDIator.
 
 Use your keys to access the MEDIator REST API.
 
-.. image:: arch.png
+.. image:: sections/arch.png
    :scale: 65
    :align: center
 
