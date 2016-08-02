@@ -7,87 +7,36 @@
 MEDIator - Data Replication System for TCIA
 *******************************************
 
-Welcome to the MEDIator Documentation on Read the Docs.
-
-Here you will find information describing the features of the MEDIator platform,
-tips on how to use it, and details about its RESTful API.
-
-With the growing adaptation of pervasive computing into medical domain and increasingly open access to data, metadata
-stored in medical image archives and legacy data stores is shared and synchronized across multiple devices of data consumers.
-While many medical image sources provide APIs for public access, an architecture that orchestrates an effective sharing
-and synchronization of metadata across multiple users, from different storage media and data sources, is still lacking.
-
 MEDIator is a data sharing and synchronization middleware platform for heterogeneous medical image archives.
 MEDIator allows sharing pointers to medical data efficiently, while letting the consumers manipulate the pointers
 without modifying the raw medical data. MEDIator has been implemented for multiple data sources, including Amazon S3,
 The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
 
-This documentation is intended to serve both the MEDIator developers/deployers as well as the MEDIator users. Please
-note that MEDIator version 1.0 has been code named SPREAD (System for Sharing and Publishing Research Data). You may
-find sentences referring to MEDIator by this code name.
+Please note that MEDIator version 1.0 has been code named SPREAD (System for Sharing and Publishing Research Data). You
+may find sentences referring to MEDIator by this code name.
 
+This MEDIator deployment focuses on TCIA as its core data source.
 
 
 Getting Started With MEDIator
 #############################
 
-You may download and build MEDIator from its source code, which is readily avilable at
+Sign up with the developer portal to get your own access keys to MEDIator.
 
-https://bitbucket.org/BMI/datareplicationsystem/
+Use your keys to access the MEDIator REST API.
 
+.. image:: arch.png
+   :scale: 65
+   :align: center
 
-There is also a containerized version of MEDIator available at,
-
-https://hub.docker.com/r/datacafe/mediator/
-
-
-However, please note that the MEDIator container can often be an outdated version. So it is recommended to clone
-MEDIator source code and build it with Maven.
-
-
-The source code of this documentation can be found at,
-https://github.com/pradeeban/mediator
-
-
-This documentation is currently hosted at,
-http://mediator.readthedocs.io/
-
-
-MEDIator Research
-#################
 
 .. toctree::
-   :maxdepth: 2
+      :maxdepth: 1
 
-   sections/Usecase
-   sections/About-MEDIator
-
-
-
-MEDIator for Users
-##################
-
-.. toctree::
-   :maxdepth: 2
-
-   sections/Interfaces
-   sections/MEDIator-REST-API
-   sections/Web-Application
-
-
-
-MEDIator for Developers
-#######################
-
-.. toctree::
-   :maxdepth: 2
-
-   sections/Development
-   sections/Deployment
-   sections/API-Gateway
-   sections/Installation-CENTOS
-   sections/Data-Sources
-
+       sections/restapi/Create
+       sections/restapi/Retrieve
+       sections/restapi/Update
+       sections/restapi/Delete
 
 
 
