@@ -21,9 +21,9 @@ This MEDIator deployment focuses on TCIA as its core data source.
 Getting Started With MEDIator
 #############################
 
-Sign up with the developer portal to get your own access keys to MEDIator.
+Sign up with the developer portal to get your own access key to MEDIator.
 
-Use your keys to access the MEDIator REST API.
+Use your keys to invoke the MEDIator REST API.
 
 .. image:: sections/arch.png
    :scale: 65
