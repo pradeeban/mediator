@@ -26,26 +26,19 @@ http://lion.bmi.emory.edu/replicaset/-9176938584709039161
 
 If the replica set exists, it would be returned as below.
 
-*Collection Names: [TCGA-GBM].*
-
-*Patient IDs: [TCGA-06-6701, TCGA-08-0831].*
-
-*StudyInstanceUIDs: [1.3.6.1.4.1.14519.5.2.1.4591.4001.151679082681232740021018262895].*
-
-*SeriesInstanceUIDs: [1.3.6.1.4.1.14519.5.2.1.4591.4001.179004339156422100336233996679]*
+ *Collection Names: [TCGA-GBM].*
+ *Patient IDs: [TCGA-06-6701, TCGA-08-0831].*
+ *StudyInstanceUIDs: [1.3.6.1.4.1.14519.5.2.1.4591.4001.151679082681232740021018262895].*
+ *SeriesInstanceUIDs: [1.3.6.1.4.1.14519.5.2.1.4591.4001.179004339156422100336233996679]*
 
 
 If the replica set retrieval failed, it would cause an internal error as below.
 
-         *<html>*
-
-         *<body>*
-
-         *<h2>500 Internal Error</h2>*
-
-         *</body>*
-
-         *</html>*
+ *<html>*
+   *<body>*
+   *<h2>500 Internal Error</h2>*
+    *</body>*
+ *</html>*
 
 Retrieve Replica Sets of the user
 #################################
