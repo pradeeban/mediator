@@ -21,4 +21,4 @@ http://lion.bmi.emory.edu/
 
 **Sample GET response**
 
-*[12, 12435]*
+*[pradeeban, pkathi2]*
