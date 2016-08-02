@@ -7,7 +7,11 @@
 MEDIator - Data Replication System for TCIA
 *******************************************
 
-MEDIator is a data sharing and synchronization middleware platform for heterogeneous medical image archives.
+
+MEDIator is a system that could provide data repositories with a seamless, and transparent, approach to give their users
+ the ability to share and publish research data — a one-way Dropbox like environment for the community which gives
+ researchers the ability to share data subsets, track and download updates, and publish data.
+
 MEDIator allows sharing pointers to medical data efficiently, while letting the consumers manipulate the pointers
 without modifying the raw medical data. MEDIator has been implemented for multiple data sources, including Amazon S3,
 The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
@@ -25,7 +29,7 @@ Sign up with the developer portal to get your own access key to MEDIator.
 
 Use your keys to invoke the MEDIator REST API.
 
-.. image:: sections/arch.png
+.. image:: mediator-tcia.png
    :scale: 65
    :align: center
 
