@@ -30,7 +30,7 @@ Sign up with the developer portal to get your own access key to MEDIator.
 Use your keys to invoke the MEDIator REST API.
 
 .. image:: mediator-tcia.png
-   :scale: 65
+   :scale: 85
    :align: center
 
 
