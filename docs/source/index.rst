@@ -12,6 +12,14 @@ MEDIator is a system that could provide data repositories with a seamless, and t
 the ability to share and publish research data — a one-way Dropbox like environment for the community which gives
 researchers the ability to share data subsets, track and download updates, and publish data.
 
+Getting Started With MEDIator
+#############################
+
+**`Sign up <https://lion.bmi.emory.edu/signup/>` to use the MEDIator APIs.**
+
+Once you have received the API key from the developer portal above, you may use your keys to invoke the MEDIator REST API.
+
+
 MEDIator allows sharing pointers to medical data efficiently, while letting the consumers manipulate the pointers
 without modifying the raw medical data. MEDIator has been implemented for multiple data sources, including Amazon S3,
 The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
@@ -37,12 +45,6 @@ MEDIator stores these pointers in an in-memory data grid for an efficient storag
 'replica sets' in MEDIator.
 
 
-Getting Started With MEDIator
-#############################
-
-`Sign up <https://lion.bmi.emory.edu/signup/>` to use the MEDIator APIs.
-
-Once you have received the API key from the developer portal above, you may use your keys to invoke the MEDIator REST API.
 
 
 .. toctree::
