@@ -7,9 +7,7 @@
 MEDIator - Data Replication System
 **********************************
 
-Welcome to the MEDIator Documentation on Read the Docs.
-
-Here you will find information describing the features of the MEDIator platform,
+Welcome to the MEDIator Documentation. Here you will find information describing the features of the MEDIator platform,
 tips on how to use it, and details about its RESTful API.
 
 .. image:: deployment.png
