@@ -20,6 +20,22 @@ Getting Started With MEDIator
 Once you have received the API key from the developer portal above, you may use your keys to invoke the MEDIator REST API.
 
 
+MEDIator RESTful APIs
+#####################
+
+.. toctree::
+   :maxdepth: 1
+
+   sections/restapi/Create
+   sections/restapi/Retrieve
+   sections/restapi/Update
+   sections/restapi/Delete
+   sections/restapi/Other
+
+
+Data Sharing and Federation with MEDIator
+#########################################
+
 MEDIator allows sharing pointers to medical data efficiently, while letting the consumers manipulate the pointers
 without modifying the raw medical data. MEDIator has been implemented for multiple data sources, including Amazon S3,
 The Cancer Imaging Archive (TCIA), caMicroscope, and metadata from CSV files for cancer images.
@@ -43,19 +59,6 @@ may duplicate pointer, as well as modify the duplicated pointer to point to a sl
 
 MEDIator stores these pointers in an in-memory data grid for an efficient storage and access. These pointers are called
 'replica sets' in MEDIator.
-
-
-
-
-.. toctree::
-   :maxdepth: 1
-
-   sections/restapi/Create
-   sections/restapi/Retrieve
-   sections/restapi/Update
-   sections/restapi/Delete
-   sections/restapi/Other
-
 
 
 Citing MEDIator
