@@ -40,9 +40,9 @@ MEDIator stores these pointers in an in-memory data grid for an efficient storag
 Getting Started With MEDIator
 #############################
 
-Sign up with the developer portal to get your own access key to MEDIator.
+`Sign up <https://lion.bmi.emory.edu/signup/>` to use the MEDIator APIs.
 
-Use your keys to invoke the MEDIator REST API.
+Once you have received the API key from the developer portal above, you may use your keys to invoke the MEDIator REST API.
 
 
 .. toctree::
